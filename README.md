@@ -4,8 +4,6 @@ Repositório destinado ao armazenamento de **projetos acadêmicos** desenvolvido
 
 Os projetos aqui presentes foram utilizados para fins de estudo, prática e avaliação acadêmica.
 
----
-
 ## Conteúdo do Repositório
 
 Os projetos estão organizados por áreas e tecnologias, incluindo:
@@ -37,8 +35,6 @@ Os projetos estão organizados por áreas e tecnologias, incluindo:
 - **Java**  
   Projetos e exercícios desenvolvidos na linguagem Java.
 
----
-
 ## Objetivo
 
 Este repositório tem como objetivo:
@@ -47,15 +43,11 @@ Este repositório tem como objetivo:
 - Facilitar consultas e revisões futuras
 - Servir como portfólio acadêmico
 
----
-
 ## Observações
 
 - Os projetos possuem fins **exclusivamente educacionais**
 - Alguns códigos podem estar simplificados ou incompletos
 - Estruturas e padrões podem variar conforme a disciplina
-
----
 
 ## Autor
 Felipe de Jesus dos Reis  
