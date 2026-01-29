@@ -1,4 +1,4 @@
-# projetos-academicos
+# projetos acadêmicos
 
 Repositório destinado ao armazenamento de **projetos acadêmicos** desenvolvidos ao longo da minha formação, envolvendo diferentes disciplinas, linguagens e tecnologias.
 
@@ -6,7 +6,7 @@ Os projetos aqui presentes foram utilizados para fins de estudo, prática e aval
 
 ---
 
-## 📚 Conteúdo do Repositório
+## Conteúdo do Repositório
 
 Os projetos estão organizados por áreas e tecnologias, incluindo:
 
@@ -39,7 +39,7 @@ Os projetos estão organizados por áreas e tecnologias, incluindo:
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Este repositório tem como objetivo:
 - Centralizar projetos acadêmicos
@@ -49,7 +49,7 @@ Este repositório tem como objetivo:
 
 ---
 
-## ⚠️ Observações
+## Observações
 
 - Os projetos possuem fins **exclusivamente educacionais**
 - Alguns códigos podem estar simplificados ou incompletos
@@ -57,5 +57,5 @@ Este repositório tem como objetivo:
 
 ---
 
-📌 **Autor:** Felipe  
-📅 **Instituições:** ETEC / FATEC
+**Autor:** Felipe  
+**Instituições:** ETEC / FATEC
