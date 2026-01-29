@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fileLog>
+<createdFiles>
+<entry name=".install4j\i4j_extf_0_foa0nj.utf8" shared="false" uninstallMode="2"/>
+<entry name="src\View\Tela.java" shared="false" uninstallMode="0"/>
+<entry name=".install4j\i4j_extf_1_foa0nj.utf8" shared="false" uninstallMode="2"/>
+<entry name=".install4j\i4j_extf_2_foa0nj.utf8" shared="false" uninstallMode="2"/>
+<entry name="dist\README.TXT" shared="false" uninstallMode="0"/>
+<entry name=".install4j\install.prop" shared="false" uninstallMode="0"/>
+<entry name="src\IMG\calc.ico" shared="false" uninstallMode="0"/>
+<entry name=".install4j\stats.properties" shared="false" uninstallMode="2"/>
+<entry name="nbproject\private\config.properties" shared="false" uninstallMode="0"/>
+<entry name=".install4j\inst_jre.cfg" shared="false" uninstallMode="0"/>
+<entry name=".install4j\i4jdel.exe" shared="false" uninstallMode="2"/>
+<entry name=".install4j\i4jinst.dll" shared="false" uninstallMode="2"/>
+<entry name=".install4j\response.varfile" shared="false" uninstallMode="0"/>
+<entry name="nbproject\build-impl.xml" shared="false" uninstallMode="0"/>
+<entry name="dist\Felipe_Deivit_Luiz.jar" shared="false" uninstallMode="0"/>
+<entry name="src\IMG\calc.png" shared="false" uninstallMode="0"/>
+<entry name="src\View\Tela.form" shared="false" uninstallMode="0"/>
+<entry name=".install4j\i4jparams.conf" shared="false" uninstallMode="2"/>
+<entry name=".install4j\MessagesDefault" shared="false" uninstallMode="2"/>
+<entry name="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Calculadora\Calculadora.lnk" shared="false" uninstallMode="2"/>
+<entry name=".install4j\user.jar" shared="false" uninstallMode="2"/>
+<entry name="nbproject\project.properties" shared="false" uninstallMode="0"/>
+<entry name="manifest.mf" shared="false" uninstallMode="0"/>
+<entry name="dist\Calculadora.exe" shared="false" uninstallMode="0"/>
+<entry name="nbproject\genfiles.properties" shared="false" uninstallMode="0"/>
+<entry name="nbproject\private\private.xml" shared="false" uninstallMode="0"/>
+<entry name=".install4j\autoUninstall.0" shared="false" uninstallMode="0"/>
+<entry name="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Calculadora\Calculadora Desinstalador.lnk" shared="false" uninstallMode="2"/>
+<entry name=".install4j\installation.log" shared="false" uninstallMode="0"/>
+<entry name="nbproject\private\private.properties" shared="false" uninstallMode="0"/>
+<entry name="nbproject\project.xml" shared="false" uninstallMode="0"/>
+<entry name=".install4j\i4jruntime.jar" shared="false" uninstallMode="2"/>
+<entry name="dist\Calculadora.vmoptions" shared="false" uninstallMode="0"/>
+<entry name="build.xml" shared="false" uninstallMode="0"/>
+<entry name="src\Principal\Main.java" shared="false" uninstallMode="0"/>
+<entry name="uninstall.exe" shared="false" uninstallMode="0"/>
+</createdFiles>
+<createdDirs>
+<entry name="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Calculadora" shared="false" uninstallMode="0"/>
+<entry name="src\View" shared="false" uninstallMode="0"/>
+<entry name="src\Principal" shared="false" uninstallMode="0"/>
+<entry name="src\IMG" shared="false" uninstallMode="0"/>
+<entry name="src" shared="false" uninstallMode="0"/>
+<entry name="nbproject\private" shared="false" uninstallMode="0"/>
+<entry name="nbproject" shared="false" uninstallMode="0"/>
+<entry name="dist" shared="false" uninstallMode="0"/>
+<entry name=".install4j" shared="false" uninstallMode="0"/>
+<entry name="." shared="false" uninstallMode="0"/>
+</createdDirs>
+</fileLog>

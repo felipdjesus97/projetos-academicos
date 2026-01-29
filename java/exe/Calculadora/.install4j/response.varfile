@@ -1,0 +1,7 @@
+#install4j response file for Calculadora 1.0
+#Thu Oct 22 11:52:42 BRST 2020
+sys.programGroupAllUsers$Boolean=true
+sys.programGroupDisabled$Boolean=false
+sys.languageId=pt_BR
+sys.programGroupName=Calculadora
+sys.installationDir=C\:\\Program Files\\Calculadora

@@ -1,0 +1,39 @@
+<ion-app>
+  <ion-menu side="start" menuId="first" contentId="main-content">
+    <ion-header id="texto" style="background: #896b02;">
+      <ion-toolbar color="#c99e02;">
+        <ion-title>
+          <img src="../assets/Logotipo.png" />
+        </ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content style="background: #c99e02;">
+      <ion-list style="background: #c99e02; font-family: 'Tahoma';">
+        <ion-item [class.selected]="selectedItem === '/caixa'" (click)="fecharMenu(); navegar('/caixa')">
+          <ion-icon name="cash-outline" color="black"></ion-icon> REGISTRAR PEDIDO
+        </ion-item>
+        <ion-item [class.selected]="selectedItem === '/cadastro-fornecedor'" (click)="fecharMenu(); navegar('/cadastro-fornecedor')">
+          <ion-icon name="person-add-sharp" color="black"></ion-icon> CADASTRAR FORNECEDOR
+        </ion-item>
+        <ion-item [class.selected]="selectedItem === '/consulta-fornecedor'" (click)="fecharMenu(); navegar('/consulta-fornecedor')">
+          <ion-icon name="people-circle-outline" color="black"></ion-icon> CONSULTAR FORNECEDOR
+        </ion-item>
+        <ion-item [class.selected]="selectedItem === '/cadastro-produto'" (click)="fecharMenu(); navegar('/cadastro-produto')">
+          <ion-icon name="add-outline" color="black"></ion-icon> CADASTRAR PRODUTO
+        </ion-item>
+        <ion-item [class.selected]="selectedItem === '/consulta-produto'" (click)="fecharMenu(); navegar('/consulta-produto')">
+          <ion-icon name="document-text-sharp" color="black"></ion-icon> CONSULTAR PRODUTO
+        </ion-item>
+      
+      <ion-item [class.selected]="selectedItem === '/repor-produto'" (click)="fecharMenu(); navegar('/repor-produto')">
+        <ion-icon name="documents-sharp" color="black"></ion-icon> REPOR PRODUTO
+      </ion-item>
+        <ion-item (click)="fecharMenu(); navegar('/'); sair();" [class.selected]="selectedItem === '/sair'" id="sair">
+          <ion-icon name="close-circle-outline" color="black"></ion-icon> SAIR
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  <ion-router-outlet id="main-content"></ion-router-outlet>
+</ion-app>

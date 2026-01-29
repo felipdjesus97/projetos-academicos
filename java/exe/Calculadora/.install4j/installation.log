@@ -1,0 +1,283 @@
+[INFO] logger started at Thu Oct 22 11:52:37 BRST 2020
+[INFO] executable name: C:\Users\Felipe\Documents\MEGA\Programas\64bits\Calculadora 64 bits.exe
+[INFO] install4j version: 5.0.5 (build 5151)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=C:\Users\Felipe\Documents\MEGA\Progra...
+sun.boot.library.path=c:\program files\java\jre1.8.0_111\bin
+exe4j.semaphoreName=c:_users_felipe_documents_mega_progra...
+java.vm.version=25.111-b14
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=;
+exe4j.consoleCodepage=cp0
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+user.script=
+user.country=BR
+sun.os.patch.level=
+install4j.exeDir=C:\Users\Felipe\Documents\MEGA\Progra...
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=C:\Users\Felipe\AppData\Local\Temp\e4...
+java.runtime.version=1.8.0_111-b14
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs=c:\program files\java\jre1.8.0_111\li...
+install4j.commIdentifier=\\.\pipe\i4jcomm0
+os.arch=amd64
+java.io.tmpdir=C:\Users\Felipe\AppData\Local\Temp\
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+user.variant=
+exe4j.tempDir=C:\Users\Felipe\AppData\Local\Temp\e4...
+os.name=Windows 10
+sun.java2d.noddraw=true
+sun.jnu.encoding=Cp1252
+java.library.path=C:\Program Files\Microsoft MPI\Bin\;C...
+sun.awt.enableExtraMouseButtons=true
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+install4j.language=pt_BR
+exe4j.isInstall4j=true
+os.version=10.0
+user.home=C:\Users\Felipe
+user.timezone=America/Sao_Paulo
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.specification.version=1.8
+file.encoding=Cp1252
+user.name=Felipe
+java.class.path=C:\Users\Felipe\AppData\Local\Temp\e4...
+java.vm.specification.version=1.8
+sun.arch.data.model=64
+java.home=c:\program files\java\jre1.8.0_111
+exe4j.launchName=C:\Users\Felipe\Documents\MEGA\Progra...
+java.specification.vendor=Oracle Corporation
+user.language=pt_BR
+awt.toolkit=sun.awt.windows.WToolkit
+java.vm.info=mixed mode
+exe4j.unextractedPosition=-1
+java.version=1.8.0_111
+java.ext.dirs=c:\program files\java\jre1.8.0_111\li...
+sun.boot.class.path=c:\program files\java\jre1.8.0_111\li...
+java.vendor=Oracle Corporation
+install4j.appDir=C:\Users\Felipe\AppData\Local\Temp\
+install4j.restartResponseFile=C:\Users\Felipe\AppData\Local\Temp\I4...
+file.separator=\
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+exe4j.unextractedPositionRestart=1134377
+sun.desktop=windows
+sun.cpu.isalist=amd64
+---------------------------- Helper Process Log ----------------------------
+       executing InstallerVariables$GetPropertyForOriginalUserRemoteCallable{name='user.home'}
+----------------------------------------------------------------------------
+---------------------------- Helper Process Log ----------------------------
+       executing InstallerVariables$GetPropertyForOriginalUserRemoteCallable{name='user.name'}
+----------------------------------------------------------------------------
+---------------------------- Helper Process Log ----------------------------
+       executing InstallerVariables$GetFoldersForOriginalUserRemoteCallable
+----------------------------------------------------------------------------
+---------------------------- Helper Process Log ----------------------------
+[INFO] logger started at Thu Oct 22 11:52:34 BRST 2020
+[INFO] executable name: C:\Users\Felipe\Documents\MEGA\Programas\64bits\Calculadora 64 bits.exe
+[INFO] install4j version: 5.0.5 (build 5151)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=C:\Users\Felipe\Documents\MEGA\Progra...
+sun.boot.library.path=c:\program files\java\jre1.8.0_111\bin
+exe4j.semaphoreName=c:_users_felipe_documents_mega_progra...
+java.vm.version=25.111-b14
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=;
+exe4j.consoleCodepage=cp0
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+user.script=
+user.country=BR
+sun.os.patch.level=
+install4j.exeDir=C:\Users\Felipe\Documents\MEGA\Progra...
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=C:\Users\Felipe\AppData\Local\Temp\e4...
+java.runtime.version=1.8.0_111-b14
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs=c:\program files\java\jre1.8.0_111\li...
+os.arch=amd64
+java.io.tmpdir=C:\Users\Felipe\AppData\Local\Temp\
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+user.variant=
+exe4j.tempDir=C:\Users\Felipe\AppData\Local\Temp\e4...
+os.name=Windows 10
+sun.java2d.noddraw=true
+sun.jnu.encoding=Cp1252
+java.library.path=C:\Program Files\Microsoft MPI\Bin\;C...
+sun.awt.enableExtraMouseButtons=true
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+exe4j.isInstall4j=true
+os.version=10.0
+user.home=C:\Users\Felipe
+user.timezone=America/Sao_Paulo
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.specification.version=1.8
+file.encoding=Cp1252
+user.name=Felipe
+java.class.path=C:\Users\Felipe\AppData\Local\Temp\e4...
+java.vm.specification.version=1.8
+sun.arch.data.model=64
+java.home=c:\program files\java\jre1.8.0_111
+exe4j.launchName=C:\Users\Felipe\Documents\MEGA\Progra...
+java.specification.vendor=Oracle Corporation
+user.language=pt_BR
+awt.toolkit=sun.awt.windows.WToolkit
+java.vm.info=mixed mode
+exe4j.unextractedPosition=1134377
+java.version=1.8.0_111
+java.ext.dirs=c:\program files\java\jre1.8.0_111\li...
+sun.boot.class.path=c:\program files\java\jre1.8.0_111\li...
+java.vendor=Oracle Corporation
+install4j.appDir=C:\Users\Felipe\AppData\Local\Temp\
+file.separator=\
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+sun.desktop=windows
+sun.cpu.isalist=amd64
+[INFO] System language 'pt_br'
+[INFO] System locale 'pt_br_BR'
+[INFO] System locale not found in available languages
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 13]: Execute action
+       Property rollbackSupported: false
+       Property failIfNotObtainedMac: true
+       Property elevatedProcessTypeMac: Helper process
+       Property elevatedProcessTypeWin: Main installation process
+       Property failIfNotObtainedWin: true
+       Property obtainIfNormalWin: false
+       Property obtainIfAdminMac: false
+       Property failIfNotRootUnix: false
+       Property obtainIfNormalMac: false
+       Property obtainIfAdminWin: true
+       Property allRequested: false
+----------------------------------------------------------------------------
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 13]: Execute action
+       Property rollbackSupported: false
+       Property obtainIfAdminMac: false
+       Property failIfNotObtainedMac: true
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalMac: false
+       Property elevatedProcessTypeWin: Main installation process
+       Property failIfNotObtainedWin: true
+       Property obtainIfNormalWin: false
+       Property failIfNotRootUnix: false
+       Property elevatedProcessTypeMac: Helper process
+       Property allRequested: false
+       Execute action successful
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: Show screen
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 5]: Execute action
+       Property file: null
+       Property excludedVariables: [sys.installationDir]
+       Property rollbackSupported: true
+       Response file C:\Program Files\Calculadora\.install4j\response.varfile does not exist
+       Execute action successful
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: Show screen
+       Variable changed: sys.programGroupName=Calculadora[class java.lang.String]
+       Variable changed: sys.programGroupDir=C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Calculadora[class java.lang.String]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+       Variable changed: sys.programGroupAllUsers=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
+       Property validateApplicationId: false
+       Property checkFreeSpace: true
+       Property saveDownloadedFiles: false
+       Property sizeCalculatorScript: null
+       Property updateBundledJre: true
+       Property installRuntime: true
+       Property fileFilterScript: null
+       Property directoryResolverScript: null
+       Property delay: false
+       Property triggerReboot: true
+       Property showFileNames: true
+       Property rollbackSupported: true
+---------------------------- Helper Process Log ----------------------------
+       executing RunningProcessChecker$GetModulesRemoteCallable
+----------------------------------------------------------------------------
+       Install file: C:\Program Files\Calculadora\build.xml; size: 3639 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 01:15:52 BRT 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\Calculadora\dist\Calculadora.exe; size: 82432 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 01:15:54 BRT 2017, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\Calculadora\dist\Calculadora.vmoptions; size: 248 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 01:15:54 BRT 2017, mode: 644, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\Calculadora\dist\Felipe_Deivit_Luiz.jar; size: 74673 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 01:15:52 BRT 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\Calculadora\dist\README.TXT; size: 1334 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\manifest.mf; size: 85 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\nbproject\build-impl.xml; size: 79925 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\nbproject\genfiles.properties; size: 475 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\nbproject\private\config.properties; size: 0 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\nbproject\private\private.properties; size: 186 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\nbproject\private\private.xml; size: 482 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\nbproject\project.properties; size: 2508 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\nbproject\project.xml; size: 526 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\src\IMG\calc.ico; size: 10505 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\src\IMG\calc.png; size: 22245 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\src\Principal\Main.java; size: 453 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\src\View\Tela.form; size: 48633 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\src\View\Tela.java; size: 45219 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\uninstall.exe; size: 95744 bytes; exists: false
+       File options set to: [fileTime: Sat Jul 22 01:15:54 BRT 2017, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\Calculadora\.install4j\inst_jre.cfg; size: 36 bytes; exists: false
+       File options set to: [fileTime: Thu Oct 22 11:52:41 BRST 2020, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\Calculadora\.install4j\i4jruntime.jar; size: 779164 bytes; exists: false
+       File options set to: [fileTime: Thu Oct 22 11:52:41 BRST 2020, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\Program Files\Calculadora\.install4j\MessagesDefault; size: 32730 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\.install4j\i4jparams.conf; size: 16565 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\.install4j\stats.properties; size: 358 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\.install4j\user.jar; size: 3079 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\.install4j\i4jdel.exe; size: 27411 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\.install4j\i4jinst.dll; size: 46592 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\.install4j\i4j_extf_0_foa0nj.utf8; size: 36810 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\.install4j\i4j_extf_1_foa0nj.utf8; size: 32730 bytes; exists: false
+       Install file: C:\Program Files\Calculadora\.install4j\i4j_extf_2_foa0nj.utf8; size: 35469 bytes; exists: false
+       Execute action successful
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action
+       Property programGroupName: Calculadora
+       Property failForSymlinksNotCreated: false
+       Property uninstallerMenuName: Calculadora Desinstalador
+       Property programGroupEntryConfigs: []
+       Property unixMenuEntries: true
+       Property addDefaultLauncherLinks: true
+       Property addUninstaller: true
+       Property categories: Application
+       Property linkDirectory: /usr/local/bin
+       Property unixSymlinks: true
+       Property allUsers: true
+       Property rollbackSupported: true
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Calculadora\Calculadora.lnk; size: 2073 bytes; exists: false
+       File options set to: [fileTime: Thu Oct 22 11:52:41 BRST 2020, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Calculadora\Calculadora Desinstalador.lnk; size: 1946 bytes; exists: false
+       File options set to: [fileTime: Thu Oct 22 11:52:41 BRST 2020, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
+       Property icon: null
+       Property itemName: Calculadora 1.0
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: command: finish
+       cleaning up
+       Finished

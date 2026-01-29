@@ -1,0 +1,222 @@
+﻿h3{
+color:#4F4F4F;
+}
+h1{
+color:#FF5427;
+}
+h2{
+color:#FF5427;
+}
+.rod {
+	width:100%;
+	max-width:280px;
+	margin:0 auto;
+}
+.menu-principal__btn{
+    width: 50px;
+    height: 50px;
+    background-size:100% 100%;
+	background-image: url("../img/iconesmart.png");
+    text-indent: -9999px;
+    background-color: white;
+    background-repeat: no-repeat;
+    border-color: #c4c4c4;
+    border-style: solid;
+    border-radius: 5px;
+    position: absolute;
+    right: 15px;
+}
+.tudo {
+	width:100%;
+	max-width:940px;
+	margin:0 auto;
+margin-top:3em;
+	box-shadow: 2px 2px 3px #555, -2px -2px 3px #555;
+	background-color:white;
+}
+
+.header {
+	position: relative;
+	z-index: 99999;
+	background-color: #49A6D3;
+	height: 5em;
+	font-weight: bold;
+}
+.header ul {
+	margin: 0;
+	padding: 0;
+}
+.header li {
+	font-size: 1.4em;
+	text-transform: uppercase;
+	margin-right: 0.5em;
+	margin-top:0.7em;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+.header a {
+	padding: 0.5em 1.2em; 
+	text-decoration: none;
+	
+}
+.header a:hover {
+	background: #FFC327;
+	border-radius: 0.4em;
+}
+.header.footer .current a {
+	cursor:default;
+	background: #FF744F;
+	border-radius: 0.4em;
+}
+.header.center ul {
+	text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+.header {
+	position: relative;
+	padding-top:0.3em;
+}	
+.header li {
+	background:#49A6D3;
+	display: none;
+	margin: 0;
+}
+.header .current {
+	display: block;
+}
+.header .current a:after {
+	content: "\2630";
+	position:absolute;
+	right:0.2em; 
+	top:0;
+	font-size:6em;
+	color: #fff;
+}
+.header a {
+	display: block;
+	padding: 0.5em 0.5em 0.5em 1em;
+	text-align: left;
+}
+.header .current a {
+	width: 5.6em;
+	margin-left: 0.5em;
+}
+.header ul:hover li {
+	border-bottom:1px solid #aedce9;
+	display: block;
+	margin: 0;
+}
+	}	
+
+.x{
+width:100%;
+height:100%;
+}
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+footer{background-color: #FF5427}
+html, body, div, span,blockquote, 
+a, ul, li, article, nav,header {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	
+position:absolue;
+	vertical-align: baseline;
+	
+}
+
+article, footer, header, nav, section {
+	display: block;
+}
+ul {
+	list-style: none;
+}
+
+body {
+	font: 62.5%/1.4 verdana, sans-serif;
+
+background-color:white;
+}
+section{
+	margin: 0;
+	padding: 10px;
+}
+
+header {
+	background-position: center,  center; 
+	background-repeat: no-repeat, repeat;
+}
+form {position:relative;}
+
+footer {
+	padding: 2em;
+	text-align:center;
+	font-size:1.2em;
+	}
+
+.outline {text-indent:-9999px; height:0; font-size:0;}
+
+@media screen and (min-width: 900px) {
+
+header {
+	height:8em;	
+}
+
+iframe
+{
+	border-radius:0em;
+}
+
+header {border-radius:1em;margin-top:0.5em;}
+section{
+	height:40em;
+	border-radius:0em;
+	background-position: 7em, center;
+}.tudo {
+	position:relative;
+	padding:0 0.5em;
+	box-shadow: 2px 2px 3px #555, -2px -2px 3px #555;
+}
+}
+@media screen and (max-width: 1000px) {
+
+header {
+	height:8em;	
+}
+
+header {border-radius:1em;margin-top:0.5em;}
+section{
+	height:60em;
+	border-radius:1em;
+	background-position: 7em, center;
+}
+.tudo {
+	position:relative;
+	padding:0 0.5em;
+	box-shadow: 2px 2px 3px #555, -2px -2px 3px #555;
+}
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+footer{
+margin-top:113em;
+position:absolue;
+}
+}
+
+footer{
+margin-top:120em;
+position:absolue;
+
+}

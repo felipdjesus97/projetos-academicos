@@ -1,0 +1,116 @@
+<ion-header id="texto" style="background: #896b02; font-family: 'Century Gothic';">
+  <ion-toolbar color="#c99e02">
+    <ion-buttons slot="start">
+      <ion-button (click)="openMenu()">
+        <ion-icon slot="icon-only" name="menu"></ion-icon>
+      </ion-button>
+      <ion-avatar>
+        <img src="../assets/Logomarca.png" />
+      </ion-avatar>
+    </ion-buttons>
+    <ion-title style="font-size: 22px; font-weight: bold;">CADASTRAR<br> FORNECEDOR</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content id="fundo" style="font-family: 'Century Gothic';">
+  <div class="Produto-section">
+    <fieldset>
+      <legend>
+        <h2 style="font-weight: bold; text-transform: uppercase; font-size: 20px;">
+          <ion-icon name="person-add"></ion-icon> Fornecedor
+        </h2>
+      </legend>
+      <form id="fornecedor-form" (ngSubmit)="addFornecedor()">
+
+        <ion-item>
+          <ion-label position="floating" style="font-weight: bold;">Nome:</ion-label>
+          <ion-input type="text" [(ngModel)]="Nome" name="Nome" required maxlength="50"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating" style="font-weight: bold;">CPF/CNPJ: 
+          </ion-label>
+          <ion-input
+            type="text"
+            [(ngModel)]="CPFCNPJ"
+            name="CPFCNPJ"
+            maxlength="18"
+            (ngModelChange)="formatarCPFCNPJ()"
+          ></ion-input>
+        </ion-item>
+        
+
+        <ion-item>
+          <ion-label position="floating" style="font-weight: bold;"><ion-icon name="logo-instagram"></ion-icon> Instagram:</ion-label>
+          <ion-input type="text" [(ngModel)]="Insta" name="Insta"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating" style="font-weight: bold;"><ion-icon name="logo-whatsapp"></ion-icon> WhatsApp: </ion-label>
+          <ion-input type="text" [(ngModel)]="Whats" name="Whats" placeholder="(00) 00000-0000" maxlength="15" (ngModelChange)="formatWhatsApp()"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating" style="font-weight: bold;">Site:</ion-label>
+          <ion-input type="text" [(ngModel)]="Site" name="Site"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating" style="font-weight: bold;">Endereço:</ion-label>
+          <ion-input type="text" [(ngModel)]="Endereco" name="Endereco"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating" style="font-weight: bold;">Número:</ion-label>
+          <ion-input type="text" [(ngModel)]="Numero" name="Numero"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating" style="font-weight: bold;">Cidade:</ion-label>
+          <ion-input type="text" [(ngModel)]="Cidade" name="Cidade"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating" style="font-weight: bold;">CEP:</ion-label>
+          <ion-input type="text" [(ngModel)]="CEP" name="CEP" placeholder="00000-000" maxlength="9" (ngModelChange)="formatCEP()"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating" style="font-weight: bold; ">Observação:</ion-label>
+          <ion-textarea type="text" [(ngModel)]="Obs" name="Obs" maxlength="255" rows="8"
+          cols="40"></ion-textarea>
+        </ion-item>
+      </form>
+    </fieldset>
+    <ion-button expand="full" color="success" type="button" (click)="ConfirmarCadastro()">
+      <ion-icon name="save-sharp"></ion-icon> Cadastrar Fornecedor
+    </ion-button>
+    <ion-button expand="full" color="light" type="button" (click)="limparCampos()">
+      <ion-icon name="trash-sharp"></ion-icon> Limpar Campos
+    </ion-button>
+  </div>
+</ion-content>
+
+<style>
+  .Produto-section {
+    padding: 16px;
+    margin-bottom: 16px;
+    background: #c99e02;
+    border-radius: 17px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    margin-bottom: 16px;
+  }
+
+  ion-button {
+    margin-top: 8px;
+  }
+
+  ion-label {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 17px;
+  }
+</style>

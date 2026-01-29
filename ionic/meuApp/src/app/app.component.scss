@@ -1,0 +1,41 @@
+ion-item {/* Cor do texto padrão */
+    cursor: pointer; /* Muda o cursor para mão */
+  }
+  
+  /* Estilo do item ao passar o mouse */
+  ion-item:hover { /* Cor de fundo ao passar o mouse */
+    --background: white; /* Cor do texto ao passar o mouse */
+  }
+  #sair:hover { /* Cor de fundo ao passar o mouse */
+    color: white;
+    --background: red; /* Cor do texto ao passar o mouse */
+  }
+  
+  /* Estilo do item selecionado */
+  ion-item.selected { /* Cor de fundo quando o item está selecionado */
+    color: black; /* Cor do texto quando o item está selecionado */
+  }
+  ion-menu ion-content {
+    --background: #c99e02; /* Cor base do fundo do menu */
+}
+
+ion-item {
+    --background: #c99e02;
+    --color: black; /* Cor do texto dos itens */
+}
+
+ion-item.selected {
+    --background: #ffe27b; /* Cor para item selecionado */
+}
+/* Exemplo em um componente */
+ion-item {
+    background: var(--ion-color-primary);
+}
+ion-menu ion-header ion-toolbar ion-title {
+    --color: black;
+    --background: #ffe27b; 
+}
+img{
+  height: 40%;
+  width: 80%;
+}

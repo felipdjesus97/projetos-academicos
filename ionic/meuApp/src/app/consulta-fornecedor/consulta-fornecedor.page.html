@@ -1,0 +1,121 @@
+<ion-header id="texto" style="background: #896b02; font-family: 'Century Gothic';">
+  <ion-toolbar color="#c99e02">
+    <ion-buttons slot="start">
+      <ion-button (click)="openMenu()">
+        <ion-icon slot="icon-only" name="menu"></ion-icon>
+      </ion-button>
+      <ion-avatar>
+        <img src="../assets/Logomarca.png" />
+      </ion-avatar>
+    </ion-buttons>
+    <ion-title style="font-size: 22px; font-weight: bold;">CONSULTAR<br> FORNECEDOR</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content id="fundo" style="font-family: 'Century Gothic'; background-color: #c99e02;">
+  <!-- Seção de Pesquisa de Fornecedor -->
+  <div class="search-section">
+    <fieldset>
+      <legend>
+        <h2 style="font-weight: bold; text-transform: uppercase; font-size: 20px;">
+          <ion-icon name="id-card-sharp"></ion-icon>Lista de Fornecedores
+        </h2>
+      </legend>
+      
+      <ion-item>
+        <ion-label position="floating">Pesquisar Nome:</ion-label>
+        <ion-input [(ngModel)]="searchTerm" (ionInput)="filterFornecedors()" type="text"></ion-input>
+      </ion-item>
+
+      <ion-grid>
+        <ion-row>
+          <ion-col size="12">
+            <ion-list id="list">
+              <ion-item *ngFor="let fornecedor of filteredFornecedors">
+                <ion-label>
+                  <P id="nome">{{ fornecedor.Nome }}</P>
+                    <p><em>Código: </em>{{ fornecedor.Codigo }}</p>
+                    <p><em>CPF/CNPJ: </em>{{ fornecedor.CPFCNPJ }}</p>
+                    <p><em>Instagram: </em>{{ fornecedor.Insta }}</p>
+                    <p><em>WhatsApp: </em>{{ fornecedor.Whats }}</p>
+                    <p><em>Site: </em>{{ fornecedor.Site }}</p>
+                    <p><em>Endereço: </em>{{ fornecedor.Endereco }}</p>
+                    <p><em>Número: </em>{{ fornecedor.Numero }}</p>
+                    <p><em>Cidade: </em>{{ fornecedor.Cidade }}</p> 
+                    <p><em>CEP: </em>{{ fornecedor.CEP }}</p>
+                    <p><em>Obs: </em>{{ fornecedor.Obs }}</p>
+                </ion-label>
+              </ion-item>
+            </ion-list>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <!-- Botão para carregar mais fornecedores -->
+      <div *ngIf="showMore" style="text-align: center;">
+        <ion-button expand="full" color="light" (click)="loadMore()">Carregar mais</ion-button>
+      </div>
+    </fieldset>
+  </div>
+
+  <!-- Seção de Edição/Exclusão de Fornecedor -->
+  <div class="edit-section">
+    <fieldset>
+      <legend>
+        <h2 style="font-weight: bold; text-transform: uppercase; font-size: 20px;">
+          <ion-icon name="create-outline"></ion-icon> Excluir Fornecedor
+        </h2>
+      </legend>
+      
+      <ion-item>
+        <ion-label position="floating">Código:</ion-label>
+        <ion-input type="number" [(ngModel)]="fornecedorCode" required min="0"></ion-input>
+      </ion-item>
+      
+      <div class="button-group">       
+        <ion-button expand="full" color="danger" (click)="deleteFornecedor()">Excluir</ion-button>
+      </div>
+    </fieldset>
+  </div>
+  
+  <!-- Botão para Cadastrar Novo Fornecedor -->
+  <div class="register-section">
+    <ion-button expand="full" color="light" (click)="addFornecedor()">Cadastrar Novo Fornecedor</ion-button>
+  </div>
+</ion-content>
+
+
+<style>
+  .search-section, .edit-section, .register-section {
+    padding: 16px;
+    margin-bottom: 16px;
+    background: #c99e02;
+    border-radius: 17px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  fieldset {
+    border: 1px solid #896b02;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+  }
+
+  h2 {
+    margin-bottom: 16px;
+  }
+
+  ion-button {
+    margin-top: 8px;
+  }
+
+  .button-group ion-button {
+    margin-top: 10px;
+  }
+
+  ion-label {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 17px;
+  }
+</style>

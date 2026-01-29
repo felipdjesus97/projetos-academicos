@@ -1,0 +1,178 @@
+<ion-header id="texto" style="background: #896b02; font-family: 'Century Gothic';">
+  <ion-toolbar color="#c99e02">
+    <ion-buttons slot="start">
+      <ion-button (click)="openMenu()">
+        <ion-icon slot="icon-only" name="menu"></ion-icon>
+      </ion-button>
+      <ion-avatar>
+        <img src="../assets/Logomarca.png" />
+      </ion-avatar>
+    </ion-buttons>
+    <ion-title style="font-size: 22px; font-weight: bold;">REGISTRAR<br> PEDIDO</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content id="fundo" style="font-family: 'Century Gothic';">
+  <div class="Produto-section">
+    <fieldset>
+      <legend>
+        <h2 style="font-weight: bold; text-transform: uppercase; font-size: 20px;">
+          <ion-icon name="document-outline"></ion-icon> Produto
+        </h2>
+      </legend>
+      <form id="Produto-form" (ngSubmit)="addToCart()">
+        <ion-item>
+          <ion-label position="fixed" style="font-weight: bold;">Código:</ion-label>
+          <ion-input
+            [(ngModel)]="ProdutoCode"
+            (ionChange)="carregarProduto()"
+            type="number"
+            name="ProdutoCode"
+            min="0"
+            placeholder="Digite o código"
+          ></ion-input>
+        </ion-item>
+        
+
+        <ion-item>
+          <ion-label position="fixed" style="font-weight: bold;">Nome:</ion-label>
+          <span>{{ ProdutoNome || '---' }}</span>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="fixed" style="font-weight: bold;">Preço Unitário:</ion-label>
+          <span>R$ {{ formatoDinheiroDisplay(unitPrice) }}</span>
+        </ion-item>
+        <ion-item>
+          <ion-label position="fixed" style="font-weight: bold;">Quantidade:</ion-label>
+          <ion-input
+            type="number"
+            [(ngModel)]="quantidade"
+            name="quantidade"
+            required
+            min="0"
+            [max]="produtoEstoque"
+            (ngModelChange)="calculateSubtotal()">
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="fixed" style="font-weight: bold;">Subtotal:</ion-label>
+          <span>R$ {{ formatoDinheiroDisplay(subtotal) }}</span>
+        </ion-item>
+
+        <ion-button expand="full" color="light" type="submit">
+          <ion-icon name="add-circle-outline"></ion-icon> Adicionar ao Carrinho
+        </ion-button>
+        <ion-button expand="full" color="light" type="button" (click)="limparCampos()">
+          <ion-icon name="trash-sharp"></ion-icon> Limpar Campos
+        </ion-button>
+      </form>
+    </fieldset>
+  </div>
+
+  <div class="cart-section">
+    <fieldset>
+      <legend>
+        <h2 style="font-weight: bold; text-transform: uppercase; font-size: 20px;">
+          <ion-icon name="cart-sharp"></ion-icon> Carrinho de Pedidos
+        </h2>
+      </legend>
+      <ion-list id="list">
+        <ion-label>
+          <h3 style="font-family: tahoma; font-weight: bold; font-size: 10px;">COD | PROD | QTD | UNID R$ | TOTAL R$</h3>
+        </ion-label>
+        <ion-item *ngFor="let item of cart; let i = index">
+          <ion-label>
+            <p style="font-family: Arial;font-size: 10px;">
+              {{ item.code }} | {{ item.name }} | {{ item.quantidade }}X | {{ formatoDinheiroDisplay(item.unitPrice) }} | {{ formatoDinheiroDisplay(item.subtotal) }}
+            </p>
+          </ion-label>
+          <ion-button slot="end" color="danger" (click)="removeFromCart(i)" style="font-size: 9px;">
+            <ion-icon name="trash-outline" style="font-size: 12px;"></ion-icon> Remover
+          </ion-button>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="fixed" style="font-weight: bold;">DESCONTO (%):</ion-label>
+          <ion-input
+            type="number"
+            [(ngModel)]="discount"
+            name="discount"
+            min="0"
+            max="100"
+            (ngModelChange)="getTotalAfterDiscount()">
+          </ion-input>
+        </ion-item>
+      </ion-list>
+
+      <h3 style="font-weight: bold; font-style: italic; font-size: 15px;">
+        SUBTOTAL: <span id="cart-subtotal" style="font-family: Arial;">R$ {{ formatoDinheiroDisplay(getTotal()) }}</span>
+      </h3>
+      <h3 style="font-weight: bold;">
+        TOTAL: <span id="cart-total" style="font-family: Arial;">R$ {{ formatoDinheiroDisplay(getTotalAfterDiscount()) }}</span>
+      </h3>
+    </fieldset>
+  </div>
+
+  
+  <div class="cart-section">
+    <fieldset>
+      <legend>
+        <h2 style="font-weight: bold; text-transform: uppercase; font-size: 20px;">
+          <ion-icon name="wallet-outline"></ion-icon> Forma de Pagamento
+        </h2>
+      </legend>
+
+      <ion-item>
+        <ion-checkbox [(ngModel)]="paymentMethods.credit" name="credit" color="tertiary"></ion-checkbox>
+        <ion-label>Crédito</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-checkbox [(ngModel)]="paymentMethods.debit" name="debit" color="tertiary"></ion-checkbox>
+        <ion-label>Débito</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-checkbox [(ngModel)]="paymentMethods.cash" name="cash" color="tertiary"></ion-checkbox>
+        <ion-label>Dinheiro</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-checkbox [(ngModel)]="paymentMethods.pix" name="pix" color="tertiary"></ion-checkbox>
+        <ion-label>Pix</ion-label>
+      </ion-item>
+    </fieldset>
+  
+
+  <ion-button expand="full" color="success" (click)="ConfirmarCadastro()">
+    <ion-icon name="checkmark-circle-sharp"></ion-icon> Confirmar Pedido
+  </ion-button>
+  <ion-button expand="full" color="danger" (click)="cancelSale()">
+    <ion-icon name="close-circle-sharp"></ion-icon> Cancelar Pedido
+  </ion-button>
+</div>
+</ion-content>
+
+
+<style>
+  .Produto-section, .cart-section {
+    padding: 16px;
+    margin-bottom: 16px;
+    background: #c99e02;
+    border-radius: 17px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    margin-bottom: 16px;
+  }
+
+  ion-button {
+    margin-top: 8px;
+  }
+
+  ion-label {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 17px;
+  }
+</style>
