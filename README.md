@@ -57,5 +57,5 @@ Este repositório tem como objetivo:
 
 ---
 
-**Autor:** Felipe  
+**Autor:** Felipe de Jesus dos Reis
 **Instituições:** ETEC / FATEC
