@@ -1,0 +1,18 @@
+CREATE DATABASE bazar;
+USE bazar;
+
+CREATE TABLE compra (
+    cod INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    valor DECIMAL(10,2),
+    data_Pagar VARCHAR(20),
+    data_Compra VARCHAR(20)
+);
+
+CREATE TABLE pendente (
+    cod INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    valor DECIMAL(10,2),
+    data_Pagar VARCHAR(20),
+    data_Compra VARCHAR(20)
+);
