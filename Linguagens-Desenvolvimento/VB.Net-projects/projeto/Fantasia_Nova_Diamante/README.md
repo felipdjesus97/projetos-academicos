@@ -6,7 +6,7 @@ Sistema interno de controle de estoque desenvolvido em **VB.NET**, com foco na g
 
 O sistema foi criado para uso desktop, oferecendo uma interface prática e intuitiva, com integração direta com banco de dados **MySQL**, permitindo o armazenamento e consulta de informações de produtos em tempo real.
 
-A aplicação foi estruturada para uso local, podendo ser expandida futuramente para outros ambientes ou integrações.
+A aplicação foi estruturada para uso local, podendo ser utilizada de duas formas: **instalação via instalador** ou execução direta pelo código-fonte.
 
 ---
 
@@ -16,7 +16,7 @@ A aplicação foi estruturada para uso local, podendo ser expandida futuramente 
 - Controle e atualização de quantidades  
 - Integração com banco de dados MySQL  
 - Interface desktop simples e intuitiva  
-- Estrutura preparada para futuras melhorias e expansões  
+- Estrutura organizada e pronta para expansão  
 
 ---
 
@@ -24,43 +24,59 @@ A aplicação foi estruturada para uso local, podendo ser expandida futuramente 
 
 Para executar o sistema, é necessário:
 
-- Ter o **MySQL instalado** no computador ou outro sistema de banco de dados compatível  
-- Configurar corretamente a conexão com o banco de dados  
-- Ter o ambiente de execução do **VB.NET** configurado  
+- Ter o **MySQL instalado** no computador  
+- Ter o ambiente de execução do **VB.NET** (caso rode pelo código-fonte)  
+- Acesso ao banco de dados do projeto  
 
 ---
 
-## 4. Configuração do banco de dados
+## 4. Instalação ou uso via código
 
-O sistema utiliza credenciais padrão de acesso ao banco:
+O sistema pode ser utilizado de duas formas:
+
+### Via Instalador
+Basta executar o instalador disponível na pasta **Instalador** e seguir o processo de instalação normalmente.
+
+### Via Código-Fonte
+Você pode abrir o projeto e executar manualmente:
+
+- Abrir a pasta **Codigo**
+- Configurar a conexão com o banco (se necessário)
+- Executar o projeto no Visual Studio
+
+---
+
+## 5. Banco de Dados
+
+Para o funcionamento do sistema, basta:
+
+- Criar o banco de dados no MySQL  
+- Copiar e colar o script disponível na pasta **BD**  
+
+Não é necessário configuração complexa — o sistema já está preparado para conexão padrão.
+
+---
+
+## 6. Estrutura do Projeto
+
+O projeto está organizado nas seguintes pastas:
+
+- **BD** → Script do banco de dados  
+- **Conector** → Arquivos de conexão com o banco  
+- **Codigo** → Código-fonte do sistema  
+- **Instalador** → Arquivo de instalação  
+
+---
+
+## 7. Configuração do banco de dados
+
+O sistema utiliza configuração padrão:
 
 - Usuário: **root**  
 - Senha: **(vazia)**  
 
-> Caso necessário, essas credenciais podem ser alteradas diretamente na configuração do projeto.
-
 ---
 
-## 5. Estrutura obrigatória de pastas
+## 8. Observações
 
-Antes de executar o sistema, é necessário criar manualmente a seguinte pasta no computador:
-
-C:\FantasiaNovaDiamante
-
-Essa pasta é utilizada pelo sistema para armazenamento e organização de arquivos internos.
-
----
-
-## 6. Como executar o projeto
-
-1. Instalar e configurar o MySQL  
-2. Criar a pasta obrigatória C:\FantasiaNovaDiamante  
-3. Abrir o projeto no ambiente de desenvolvimento VB.NET  
-4. Configurar a conexão com o banco de dados 
-5. Executar a aplicação  
-
----
-
-## 7. Observações
-
-Este projeto foi desenvolvido com foco em aprendizado prático de desenvolvimento desktop, integração com banco de dados e organização de sistemas de controle interno.
+Este projeto foi desenvolvido com foco em aprendizado prático de sistemas desktop, integração com banco de dados MySQL e organização de arquitetura de software. Ele permite tanto instalação simples quanto uso direto via código-fonte, oferecendo flexibilidade para testes e melhorias.
