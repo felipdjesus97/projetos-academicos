@@ -1,54 +1,77 @@
-# projetos acadêmicos
+# Projetos Acadêmicos
 
-Repositório destinado ao armazenamento de **projetos acadêmicos** desenvolvidos ao longo da minha formação, envolvendo diferentes disciplinas, linguagens e tecnologias.
+Repositório destinado ao armazenamento de **projetos acadêmicos desenvolvidos ao longo da minha formação**, abrangendo diferentes disciplinas, linguagens de programação e tecnologias.
 
-Os projetos aqui presentes foram utilizados para fins de estudo, prática e avaliação acadêmica.
+Os projetos aqui presentes foram utilizados para fins de estudo, prática e avaliação acadêmica, registrando a evolução contínua do aprendizado.
 
-## Conteúdo do Repositório
+---
 
-Os projetos estão organizados por áreas e tecnologias, incluindo:
+## Estrutura do Repositório
 
-- **GestãoDeProjetos**  
-  Trabalhos relacionados a planejamento, organização e gerenciamento de projetos.
+O repositório está organizado por áreas de conhecimento e tecnologias:
 
-- **LaboratorioBancoDeDados**  
-  Atividades práticas envolvendo modelagem, consultas e manipulação de bancos de dados.
+### Banco de Dados
+Projetos envolvendo modelagem, scripts SQL, procedures e integração com aplicações.
 
-- **ProjetoDeRedes**  
-  Projetos e estudos voltados à área de redes de computadores.
+### Dados e Análise
+Projetos relacionados à análise de dados e automação, incluindo:
+- Excel e VBA
+- Power BI
+- Análises e dashboards
 
-- **IA (Inteligência Artificial)**  
-  Exercícios e projetos introdutórios envolvendo conceitos de inteligência artificial.
+### Engenharia e Design
+Materiais e projetos de apoio acadêmico, como:
+- Gestão de projetos
+- Documentação técnica
+- Diagramas UML
+- Planilhas e relatórios
 
-- **Site**  
-  Desenvolvimento de sites utilizando tecnologias web (HTML, CSS, JavaScript, etc.).
+### Linguagens de Desenvolvimento
+Projetos desenvolvidos em diferentes linguagens e plataformas, incluindo:
+- VB.NET (sistemas desktop)
+- Java
+- Node.js / sistemas web
+- C++
 
-- **Ionic**  
-  Projetos de aplicações mobile desenvolvidos com o framework Ionic.
+Também inclui aplicações completas desenvolvidas em ambiente acadêmico.
 
-- **Power BI**  
-  Dashboards e análises de dados utilizando a ferramenta Power BI.
+### Android
+Projetos mobile desenvolvidos para estudo de desenvolvimento Android, incluindo aplicações simples, testes e exercícios.
 
-- **VB.NET**  
-  Aplicações desenvolvidas utilizando a linguagem VB.NET.
+### Web
+Projetos de desenvolvimento web utilizando:
+- HTML
+- CSS
+- JavaScript
 
-- **Java**  
-  Projetos e exercícios desenvolvidos na linguagem Java.
+Inclui sites estáticos e atividades práticas.
+
+### Redes de Computadores
+Projetos e estudos relacionados à infraestrutura de redes e simulações.
+
+---
 
 ## Objetivo
 
-Este repositório tem como objetivo:
-- Centralizar projetos acadêmicos
-- Registrar a evolução do aprendizado
-- Facilitar consultas e revisões futuras
-- Servir como portfólio acadêmico
+Este repositório tem como objetivos:
+
+- Centralizar projetos acadêmicos em um único local
+- Registrar a evolução do aprendizado ao longo do curso
+- Servir como material de estudo e consulta futura
+- Funcionar como base de portfólio acadêmico e profissional
+
+---
 
 ## Observações
 
-- Os projetos possuem fins **exclusivamente educacionais**
-- Alguns códigos podem estar simplificados ou incompletos
-- Estruturas e padrões podem variar conforme a disciplina
+- Todos os projetos possuem fins **estritamente educacionais**
+- Alguns códigos podem conter simplificações didáticas
+- Estruturas podem variar conforme disciplina e período do curso
+- Arquivos de build e temporários foram incluídos apenas quando necessários para demonstração acadêmica
+
+---
 
 ## Autor
-Felipe de Jesus dos Reis  
+
+**Felipe de Jesus dos Reis**  
 ETEC / FATEC
