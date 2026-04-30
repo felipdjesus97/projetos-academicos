@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:src="@drawable/quiz1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fundo_2"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2)O usuário esta editando o texto no Microsoft Word 2010, por isso ele precisa copiar as teclas de atalho para salvar o documento como segue:"
+            android:textSize="16dp" />
+
+        <RadioGroup
+            android:id="@+id/rgopcoes2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/p2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="(A)Ctrl+B" />
+
+            <RadioButton
+                android:id="@+id/p2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(B)Ctrl+L" />
+
+            <RadioButton
+                android:id="@+id/p2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(C)Ctrl+O" />
+
+            <RadioButton
+                android:id="@+id/p2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(D)Ctrl+S" />
+
+            <RadioButton
+                android:id="@+id/p2_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(E)Ctrl+W" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btcalcular2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proxima Pergunta" />
+
+    </LinearLayout>
+
+</LinearLayout>

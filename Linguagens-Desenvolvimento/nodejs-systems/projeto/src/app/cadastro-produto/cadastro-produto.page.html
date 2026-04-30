@@ -1,0 +1,87 @@
+<ion-header id="texto" style="background: #896b02; font-family: 'Century Gothic';">
+  <ion-toolbar color="#c99e02">
+      <ion-buttons slot="start">
+          <ion-button (click)="openMenu()">
+              <ion-icon slot="icon-only" name="menu"></ion-icon>
+          </ion-button>
+          <ion-avatar>
+              <img src="../assets/Logomarca.png" />
+          </ion-avatar>
+      </ion-buttons>
+      <ion-title style="font-size: 22px; font-weight: bold;">CADASTRAR<br> PRODUTO</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content id="fundo" style="font-family: 'Century Gothic';">
+  <div class="Produto-section">
+      <fieldset>
+          <legend>
+              <h2 style="font-weight: bold; text-transform: uppercase; font-size: 20px;">
+                  <ion-icon name="add-circle-outline"></ion-icon> Novo Produto
+              </h2>
+          </legend>
+          <form id="Produto-form" (ngSubmit)="addProduto()">
+              <ion-item>
+                  <ion-label position="floating" style="font-weight: bold; ">Nome:</ion-label>
+                  <ion-input type="text" [(ngModel)]="ProdutoNome" name="ProdutoNome" required maxlength="50"></ion-input>
+              </ion-item>
+
+              <ion-item>
+                  <ion-label position="fixed" style="font-weight: bold; ">Fornecedor:</ion-label>
+                  <ion-select [(ngModel)]="fornecedor" name="fornecedor" placeholder="Selecione">
+                    <ion-select-option *ngFor="let fornecedor of fornecedores" [value]="fornecedor.Nome">
+                        {{ fornecedor.Nome }}
+                    </ion-select-option>
+                </ion-select>
+                
+              </ion-item>
+
+              <ion-item>
+                  <ion-label position="floating" style="font-weight: bold;">Quantidade Mínima:</ion-label>
+                  <ion-input type="number" [(ngModel)]="QuantidadeMinima" name="QuantidadeMinima" required min="0"></ion-input>
+              </ion-item>
+
+              <ion-item>
+                  <ion-label position="floating" style="font-weight: bold;">Preço Unitário R$:</ion-label>
+                  <ion-input type="text" [(ngModel)]="formatoprecoUnitario" name="precoUnitario" required (ionBlur)="formatoDinheiro()" placeholder="0,00"></ion-input>
+              </ion-item>
+
+             
+              
+          </form>
+      </fieldset>
+      <ion-button expand="full" color="success" type="button" (click)="ConfirmarCadastro()">
+          <ion-icon name="save-sharp"></ion-icon> Cadastrar Produto
+      </ion-button>
+      <ion-button expand="full" color="light" type="button" (click)="limparCampos()">
+          <ion-icon name="trash-sharp"></ion-icon> Limpar Campos
+      </ion-button>
+  </div>
+</ion-content>
+
+<style>
+  .Produto-section {
+      padding: 16px;
+      margin-bottom: 16px;
+      background: #c99e02;
+      border-radius: 17px;
+      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+      margin-bottom: 16px;
+  }
+  
+  ion-select {
+      --background: #c99e02;
+  }
+
+  ion-button {
+      margin-top: 8px;
+  }
+  ion-label {
+      font-family: Arial;
+      font-weight: bold;
+      font-size: 17px;
+  }
+</style>

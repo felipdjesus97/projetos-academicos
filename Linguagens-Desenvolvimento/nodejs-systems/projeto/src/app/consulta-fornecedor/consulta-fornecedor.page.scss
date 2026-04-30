@@ -1,0 +1,17 @@
+p{
+    color: black;
+    font-size: 14px;
+}
+#nome{
+    font-size: 17px;
+}
+em{
+    font-style: italic;
+    font-size: 13px;
+    font-family: Cambria;
+}
+ion-list {
+    max-height: 300px;  // Limite de altura da lista
+    overflow-y: auto;   // Ativa a rolagem
+  }
+  

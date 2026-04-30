@@ -1,0 +1,65 @@
+﻿
+CREATE DATABASE `deposito` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `deposito`;
+
+CREATE TABLE IF NOT EXISTS `cliente` (
+  `Codigo` int(11) NOT NULL AUTO_INCREMENT,
+  `Nome` varchar(50) NOT NULL,
+  `Email` varchar(50) DEFAULT NULL,
+  `Sexo` varchar(10) NOT NULL,
+  `RG` varchar(14) NOT NULL DEFAULT '',
+  `Telefone` varchar(20) NOT NULL,
+  `Celular` varchar(30) DEFAULT NULL,
+  `Endereco` varchar(30) NOT NULL,
+  `Numero` varchar(8) NOT NULL,
+  `Complemento` varchar(30) DEFAULT NULL,
+  `CEP` varchar(30) DEFAULT NULL,
+  `Bairro` varchar(30) DEFAULT NULL,
+  `Cidade` varchar(30) DEFAULT NULL,
+  `Limite_Credito` char(10) NOT NULL,
+  `Saldo` char(10) DEFAULT NULL,
+  PRIMARY KEY (`Codigo`,`RG`),
+  UNIQUE KEY `RG` (`RG`)
+) ;
+
+CREATE TABLE IF NOT EXISTS `foto_cliente` (
+  `foto_cod` int(11) NOT NULL AUTO_INCREMENT,
+  `image` longblob,
+  PRIMARY KEY (`foto_cod`)
+) ;
+
+CREATE TABLE IF NOT EXISTS `foto_produto` (
+  `foto_cod` int(11) NOT NULL AUTO_INCREMENT,
+  `image` longblob,
+  PRIMARY KEY (`foto_cod`)
+) ;
+
+CREATE TABLE IF NOT EXISTS `produto` (
+  `Codigo` int(11) NOT NULL AUTO_INCREMENT,
+  `Nome` varchar(50) NOT NULL,
+  `Quantidade` int(10) DEFAULT NULL,
+  `Valor_Compra` char(10) NOT NULL,
+  `Fabricante` varchar(40) DEFAULT NULL,
+  `qtd_Minima` int(5) DEFAULT NULL,
+  `Valor_Venda` char(10) NOT NULL,
+  PRIMARY KEY (`Codigo`),
+  UNIQUE KEY `Nome` (`Nome`)
+);
+
+CREATE TABLE IF NOT EXISTS `venda` (
+  `Codigo` int(11) NOT NULL AUTO_INCREMENT,
+`Data` char(10) NOT NULL,
+  `Produtos_Vendidos` varchar(255) NOT NULL,
+  `Valor_Venda` char(10) NOT NULL,
+   PRIMARY KEY (`Codigo`));
+
+
+CREATE TABLE IF NOT EXISTS `controle` (
+  `Codigo` int(11) NOT NULL AUTO_INCREMENT,
+  `estoque_val` char(10) NOT NULL,
+  `venda_val` char(10) NOT NULL,
+   PRIMARY KEY (`Codigo`));
+
+INSERT INTO CONTROLE VALUES(1,0,0);
+
+

@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:src="@drawable/quiz1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fundo_2"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="1)A informática é dividida em duas partes hardware e software.Das opções abaixo assinale qual delas é a correta definição para  Software?"
+            android:textSize="16dp" />
+
+        <RadioGroup
+            android:id="@+id/rgopcoes1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            >
+
+            <RadioButton
+                android:id="@+id/pi_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="(A)Toda parte física da informática" />
+
+            <RadioButton
+                android:id="@+id/p1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(B)Toda parte humana da informática" />
+
+            <RadioButton
+                android:id="@+id/p1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(C)Toda parte gratuita da informática" />
+
+            <RadioButton
+                android:id="@+id/p1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(D)Toda parte comprada da informática" />
+
+            <RadioButton
+                android:id="@+id/p1_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(E)Toda parte lógica da informática" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btcalcular1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proxima Pergunta" />
+
+    </LinearLayout>
+
+</LinearLayout>

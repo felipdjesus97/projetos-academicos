@@ -1,0 +1,4 @@
+com\deosermis\backend\controller\ProdutoController.class
+com\deosermis\backend\model\Produto.class
+com\deosermis\backend\Backend.class
+com\deosermis\backend\repository\ProdutoRepository.class

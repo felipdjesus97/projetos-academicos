@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50E30185-EA2D-4FBB-B097-0C1946D6320D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Fantasia_Nova_Diamante.My.MyApplication</StartupObject>
+    <RootNamespace>Fantasia_Nova_Diamante</RootNamespace>
+    <AssemblyName>Fantasia_Nova_Diamante</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Fantasia_Nova_Diamante.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Fantasia_Nova_Diamante.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Data.Services, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.5.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.5.7\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity, Version=6.5.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.5.7\Assemblies\v4.0\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web, Version=6.5.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.5.7\Assemblies\v4.0\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlBackup, Version=2.0.9.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.5.7\Assemblies\Net45\MySqlBackup.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cad_Cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cad_Cliente.Designer.vb">
+      <DependentUpon>Cad_Cliente.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cad_Estoque.Designer.vb">
+      <DependentUpon>Cad_Estoque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cad_Estoque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Caixa.Designer.vb">
+      <DependentUpon>Caixa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Caixa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Carregar.Designer.vb">
+      <DependentUpon>Carregar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Carregar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compra.Designer.vb">
+      <DependentUpon>Compra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Compra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consul_Cliente.Designer.vb">
+      <DependentUpon>Consul_Cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consul_Cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consul_Falta.Designer.vb">
+      <DependentUpon>Consul_Falta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consul_Falta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consul_Pendente.Designer.vb">
+      <DependentUpon>Consul_Pendente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consul_Pendente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consul_Produto.Designer.vb">
+      <DependentUpon>Consul_Produto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consul_Produto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editar_Cliente.Designer.vb">
+      <DependentUpon>Editar_Cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Editar_Cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editar_Produto.Designer.vb">
+      <DependentUpon>Editar_Produto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Editar_Produto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editar_Usuario.Designer.vb">
+      <DependentUpon>Editar_Usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Editar_Usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Historico.Designer.vb">
+      <DependentUpon>Historico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Historico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Selec_Pendente.Designer.vb">
+      <DependentUpon>Selec_Pendente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Selec_Pendente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suporte.Designer.vb">
+      <DependentUpon>Suporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Suporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuario.Designer.vb">
+      <DependentUpon>Usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Valor_atual.Designer.vb">
+      <DependentUpon>Valor_atual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Valor_atual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cad_Cliente.resx">
+      <DependentUpon>Cad_Cliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cad_Estoque.resx">
+      <DependentUpon>Cad_Estoque.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Caixa.resx">
+      <DependentUpon>Caixa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Carregar.resx">
+      <DependentUpon>Carregar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compra.resx">
+      <DependentUpon>Compra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consul_Cliente.resx">
+      <DependentUpon>Consul_Cliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consul_Falta.resx">
+      <DependentUpon>Consul_Falta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consul_Pendente.resx">
+      <DependentUpon>Consul_Pendente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consul_Produto.resx">
+      <DependentUpon>Consul_Produto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editar_Cliente.resx">
+      <DependentUpon>Editar_Cliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editar_Produto.resx">
+      <DependentUpon>Editar_Produto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editar_Usuario.resx">
+      <DependentUpon>Editar_Usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historico.resx">
+      <DependentUpon>Historico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Selec_Pendente.resx">
+      <DependentUpon>Selec_Pendente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suporte.resx">
+      <DependentUpon>Suporte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuario.resx">
+      <DependentUpon>Usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Valor_atual.resx">
+      <DependentUpon>Valor_atual.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cash_B-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confirme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consulta_andamento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desliga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limpar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_by_copy-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sair_318-100261.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salvar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_add_12818.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2017-06-09 at 23.36.51.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2017-02-27 17.56.47.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\configuiração.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mais.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\novo_backup.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Produtos</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f6f9;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .salvar { background: #28a745; color: white; }
+        .atualizar { background: #007bff; color: white; }
+
+        ul {
+            margin-top: 20px;
+            padding: 0;
+            list-style: none;
+        }
+
+        li {
+            background: #eee;
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .btn {
+            margin-left: 5px;
+            padding: 5px 10px;
+        }
+
+        .editar { background: orange; }
+        .excluir { background: red; color: white; }
+
+        .erro {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Produtos</h1>
+
+<input id="id" type="hidden">
+
+<input id="nome" placeholder="Nome">
+<input id="quantidade" placeholder="Quantidade" type="number">
+<input id="valor" placeholder="Valor" type="number">
+
+<button class="salvar" onclick="salvar()">Salvar</button>
+<button class="atualizar" onclick="atualizar()">Atualizar</button>
+
+<div id="erro" class="erro"></div>
+
+<ul id="lista"></ul>
+
+</div>
+
+<script>
+function validar(nome, quantidade, valor) {
+    if (!nome || quantidade <= 0 || valor <= 0) {
+        document.getElementById("erro").innerText = "Preencha todos os campos corretamente!";
+        return false;
+    }
+    document.getElementById("erro").innerText = "";
+    return true;
+}
+
+async function salvar() {
+    const nome = document.getElementById("nome").value;
+    const quantidade = document.getElementById("quantidade").value;
+    const valor = document.getElementById("valor").value;
+
+    if (!validar(nome, quantidade, valor)) return;
+
+    await fetch("http://localhost:8080/produtos", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ nome, quantidade, valor })
+    });
+
+    limpar();
+    listar();
+}
+
+async function atualizar() {
+    const id = document.getElementById("id").value;
+    const nome = document.getElementById("nome").value;
+    const quantidade = document.getElementById("quantidade").value;
+    const valor = document.getElementById("valor").value;
+
+    if (!validar(nome, quantidade, valor)) return;
+
+    await fetch(`http://localhost:8080/produtos/${id}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ nome, quantidade, valor })
+    });
+
+    limpar();
+    listar();
+}
+
+function editar(p) {
+    document.getElementById("id").value = p.id;
+    document.getElementById("nome").value = p.nome;
+    document.getElementById("quantidade").value = p.quantidade;
+    document.getElementById("valor").value = p.valor;
+}
+
+async function deletar(id) {
+    await fetch(`http://localhost:8080/produtos/${id}`, {
+        method: "DELETE"
+    });
+    listar();
+}
+
+function limpar() {
+    document.getElementById("id").value = "";
+    document.getElementById("nome").value = "";
+    document.getElementById("quantidade").value = "";
+    document.getElementById("valor").value = "";
+}
+
+async function listar() {
+    const res = await fetch("http://localhost:8080/produtos");
+    const dados = await res.json();
+
+    const lista = document.getElementById("lista");
+    lista.innerHTML = "";
+
+    dados.forEach(p => {
+        lista.innerHTML += `
+            <li>
+                ${p.nome} - ${p.quantidade} - R$${p.valor}
+                <button class="btn editar" onclick='editar(${JSON.stringify(p)})'>Editar</button>
+                <button class="btn excluir" onclick='deletar(${p.id})'>Excluir</button>
+            </li>
+        `;
+    });
+}
+
+listar();
+</script>
+
+</body>
+</html>

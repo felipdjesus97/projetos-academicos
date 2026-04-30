@@ -1,0 +1,93 @@
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\bin\Debug\Fantasia_Nova_Diamante.exe
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\bin\Debug\Fantasia_Nova_Diamante.pdb
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\bin\Debug\Fantasia_Nova_Diamante.xml
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.vbprojResolveAssemblyReference.cache
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Cad_Cliente.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Cad_Estoque.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Caixa.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Carregar.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Compra.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Consul_Cliente.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Consul_Falta.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Consul_Pendente.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Consul_Produto.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Editar_Cliente.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Editar_Produto.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Editar_Usuario.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Historico.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Home.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Login.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Resources.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Selec_Pendente.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Suporte.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Usuario.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Valor_atual.resources
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.vbproj.GenerateResource.Cache
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.exe
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.xml
+C:\Users\djesusgrd\Music\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.pdb
+C:\Users\djesusgrd\Documents\Visual Studio 2012\Projects\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.exe
+C:\Users\djesusgrd\Documents\Visual Studio 2012\Projects\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.xml
+C:\Users\djesusgrd\Documents\Visual Studio 2012\Projects\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.pdb
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.exe
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.xml
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.pdb
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\bin\Debug\Fantasia_Nova_Diamante.exe
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\bin\Debug\Fantasia_Nova_Diamante.pdb
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\bin\Debug\Fantasia_Nova_Diamante.xml
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.vbprojResolveAssemblyReference.cache
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Cad_Cliente.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Cad_Estoque.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Caixa.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Carregar.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Compra.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Consul_Cliente.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Consul_Falta.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Consul_Pendente.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Consul_Produto.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Editar_Cliente.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Editar_Produto.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Editar_Usuario.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Historico.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Home.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Login.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Resources.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Selec_Pendente.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Suporte.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Usuario.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Valor_atual.resources
+C:\Users\orlan\Downloads\xxxxx\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.vbproj.GenerateResource.Cache
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.exe
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.xml
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.pdb
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\bin\Debug\Fantasia_Nova_Diamante.exe
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\bin\Debug\Fantasia_Nova_Diamante.pdb
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\bin\Debug\Fantasia_Nova_Diamante.xml
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.vbprojResolveAssemblyReference.cache
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Cad_Cliente.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Cad_Estoque.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Caixa.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Carregar.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Compra.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Consul_Cliente.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Consul_Falta.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Consul_Pendente.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Consul_Produto.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Editar_Cliente.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Editar_Produto.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Editar_Usuario.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Historico.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Home.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Login.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Resources.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Selec_Pendente.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Suporte.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Usuario.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.Valor_atual.resources
+C:\Users\djesusgrd\Music\Nova pasta\Fantasia_Nova_Diamante\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.vbproj.GenerateResource.Cache
+C:\Users\orlan\Downloads\penuu\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.exe
+C:\Users\orlan\Downloads\penuu\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.xml
+C:\Users\orlan\Downloads\penuu\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.pdb
+C:\Users\djesusgrd\Music\penuu\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.exe
+C:\Users\djesusgrd\Music\penuu\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.xml
+C:\Users\djesusgrd\Music\penuu\Fantasia_Nova_Diamante\obj\Debug\Fantasia_Nova_Diamante.pdb
