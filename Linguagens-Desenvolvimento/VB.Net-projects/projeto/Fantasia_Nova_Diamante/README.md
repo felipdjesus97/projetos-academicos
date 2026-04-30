@@ -1,52 +1,66 @@
-# Sistema de Gerenciamento de Vendas e Estoque
+# Sistema de Controle de Estoque (VB.NET)
 
 ## 1. Descrição do Projeto
 
-Sistema de gerenciamento de vendas e controle de estoque, desenvolvido com o objetivo de registrar vendas realizadas por canais digitais como WhatsApp e Instagram, além de permitir o controle e organização de produtos em estoque.
+Sistema interno de controle de estoque desenvolvido em **VB.NET**, com foco na gestão de produtos e organização de dados de forma simples e eficiente.
 
-O sistema foi inicialmente planejado como uma aplicação desktop, mas evoluiu para uma solução mais flexível, com foco em facilitar o uso e permitir futuras expansões para outras plataformas, como web e mobile.
+O sistema foi criado para uso desktop, oferecendo uma interface prática e intuitiva, com integração direta com banco de dados **MySQL**, permitindo o armazenamento e consulta de informações de produtos em tempo real.
 
-A aplicação utiliza banco de dados relacional para armazenamento das informações, garantindo organização, consistência e facilidade na consulta de dados de produtos e vendas.
+A aplicação foi estruturada para uso local, podendo ser expandida futuramente para outros ambientes ou integrações.
 
 ---
 
 ## 2. Funcionalidades
 
-- Registro de vendas realizadas por canais digitais  
-- Controle de estoque de produtos  
-- Cadastro e gerenciamento de produtos  
+- Cadastro de produtos no estoque  
+- Controle e atualização de quantidades  
 - Integração com banco de dados MySQL  
-- Estrutura preparada para expansão futura (web/mobile)  
+- Interface desktop simples e intuitiva  
+- Estrutura preparada para futuras melhorias e expansões  
 
 ---
 
-## 3. Como executar o projeto
+## 3. Requisitos para execução
 
-Para executar o sistema, é necessário ter o banco de dados MySQL previamente configurado e importado.
+Para executar o sistema, é necessário:
 
-Após isso, o backend deve ser iniciado para permitir a comunicação com o sistema.
-
-Em seguida, a aplicação deve ser executada para acesso à interface principal.
-
-Recomenda-se o uso do navegador Firefox para melhor compatibilidade e desempenho.
+- Ter o **MySQL instalado** no computador ou outro sistema de banco de dados compatível  
+- Configurar corretamente a conexão com o banco de dados  
+- Ter o ambiente de execução do **VB.NET** configurado  
 
 ---
 
-## 4. Instruções de execução
+## 4. Configuração do banco de dados
 
-1. Acessar a pasta da API do projeto  
-2. Iniciar o servidor backend executando o arquivo principal da aplicação  
-3. Em seguida, iniciar a aplicação frontend em outro processo  
+O sistema utiliza credenciais padrão de acesso ao banco:
 
----
+- Usuário: **root**  
+- Senha: **(vazia)**  
 
-## 5. Acesso ao sistema
-
-- Usuário: **adm**  
-- Senha: **123**  
+> Caso necessário, essas credenciais podem ser alteradas diretamente na configuração do projeto.
 
 ---
 
-## 6. Observações
+## 5. Estrutura obrigatória de pastas
 
-O sistema foi desenvolvido como projeto acadêmico com foco em aprendizado prático de desenvolvimento de sistemas completos, integração entre frontend, backend e banco de dados, além da aplicação de conceitos de arquitetura e organização de software.
+Antes de executar o sistema, é necessário criar manualmente a seguinte pasta no computador:
+
+C:\FantasiaNovaDiamante
+
+Essa pasta é utilizada pelo sistema para armazenamento e organização de arquivos internos.
+
+---
+
+## 6. Como executar o projeto
+
+1. Instalar e configurar o MySQL  
+2. Criar a pasta obrigatória C:\FantasiaNovaDiamante  
+3. Abrir o projeto no ambiente de desenvolvimento VB.NET  
+4. Configurar a conexão com o banco de dados 
+5. Executar a aplicação  
+
+---
+
+## 7. Observações
+
+Este projeto foi desenvolvido com foco em aprendizado prático de desenvolvimento desktop, integração com banco de dados e organização de sistemas de controle interno.
