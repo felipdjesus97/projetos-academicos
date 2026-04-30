@@ -53,7 +53,7 @@ Para o funcionamento do sistema, basta:
 - Criar o banco de dados no MySQL  
 - Copiar e colar o script disponível na pasta **BD**  
 
-Não é necessário configuração complexa — o sistema já está preparado para conexão padrão.
+Não é necessário configuração complexa, o sistema já está preparado para conexão padrão.
 
 ---
 
